@@ -1,0 +1,26 @@
+#app{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.movie {
+ display: grid;
+ grid-template-columns: 1fr;
+ justify-items: center;
+ align-self: center;
+} 
+
+
+.reviews {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+}
+
+.review {
+  margin: 0 20px;
+
+  h4 {
+    text-align: center;
+  }
+}
